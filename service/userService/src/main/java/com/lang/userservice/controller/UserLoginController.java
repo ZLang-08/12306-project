@@ -2,6 +2,9 @@ package com.lang.userservice.controller;
 
 import com.lang.userservice.dto.req.UserLoginReqDTO;
 import com.lang.userservice.srevice.UserLoginService;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 用户登录控制器
