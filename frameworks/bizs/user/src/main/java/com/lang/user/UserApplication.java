@@ -1,13 +1,13 @@
-package com.lang.bizs;
+package com.lang.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BizsApplication {
+public class UserApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BizsApplication.class, args);
+        SpringApplication.run(UserApplication.class, args);
     }
 
 }

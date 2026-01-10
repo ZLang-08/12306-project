@@ -1,0 +1,5 @@
+﻿server:
+  port: 9001
+spring:
+  application:
+    name: index12306-user${unique-name:}-service

@@ -19,6 +19,9 @@
         <maven-common-plugin.version>3.1.0</maven-common-plugin.version>
         <maven.compiler.target>17</maven.compiler.target>
         <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <lombok.version>1.18.30</lombok.version>
     </properties>
 
@@ -76,6 +79,8 @@
                 <version>${maven-common-plugin.version}</version>
                 <configuration>
                     <skipTests>true</skipTests>
+                    <encoding>UTF-8</encoding>
+                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
                 </configuration>
             </plugin>
 
@@ -85,6 +90,8 @@
                 <version>${maven-common-plugin.version}</version>
                 <configuration>
                     <skipTests>true</skipTests>
+                    <encoding>UTF-8</encoding>
+                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
                 </configuration>
             </plugin>
 
@@ -150,6 +157,7 @@
                 <configuration>
                     <source>17</source>
                     <target>17</target>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
         </plugins>

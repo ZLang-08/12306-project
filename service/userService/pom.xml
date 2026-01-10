@@ -6,7 +6,6 @@
         <groupId>org.lang.index12306</groupId>
         <artifactId>index12306-services</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <artifactId>index12306-user-service</artifactId>
     <dependencies>
@@ -81,13 +80,13 @@
 
         <dependency>
             <groupId>org.lang.index12306</groupId>
-            <artifactId>index12306-designpattern-spring-boot-starter</artifactId>
+            <artifactId>index12306-designPattern-spring-boot-starter</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.lang.index12306</groupId>
-            <artifactId>index12306-convention-spring-boot-starter</artifactId>
+            <artifactId>index12306-convetion-spring-boot-starter</artifactId>
             <version>${project.version}</version>
         </dependency>
 
